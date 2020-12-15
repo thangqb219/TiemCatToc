@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Lựa Chọn"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:textColor="@color/den"
+        android:background="@color/vang"
+        android:textStyle="bold"
+        android:paddingLeft="5dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/den"/>
+    <TextView
+        android:id="@+id/txvThemKH"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Thêm Khách Hàng"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:textColor="@color/den"
+        android:background="@color/trang"
+        android:paddingLeft="5dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/den"/>
+    <TextView
+        android:id="@+id/txvThemThoCat"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Thêm Thợ Cắt"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:textColor="@color/den"
+        android:background="@color/trang"
+        android:paddingLeft="5dp"
+        />
+</LinearLayout>
